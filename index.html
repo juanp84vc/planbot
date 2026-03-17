@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>PlanBot - Chatbot de Planificación Automática</title>
+    <meta name="description" content="PlanBot: Asistente inteligente de planificación de producción. Soporta MRP Clásico, Temporal y Probabilístico (Monte Carlo)." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="PlanBot"
+      agent-id="e5057fd4-1ef6-4da2-b54b-9d40a8cf7ad0"
+      language-code="es"
+    ></df-messenger>
+  </body>
+</html>
